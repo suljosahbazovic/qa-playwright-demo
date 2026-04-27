@@ -19,3 +19,14 @@ if (hours >= 6 && hours < 12){
 else {
     console.log("Good evening!");
 }   
+
+console.log("================================");
+
+var ageIsMoreThanEighteen = false;
+var isUSCitizen = true;
+
+if (ageIsMoreThanEighteen && isUSCitizen){
+    console.log("Customer is eligible for DL!");
+} else {
+    console.log("Customer is not eligible for DL!");
+}
