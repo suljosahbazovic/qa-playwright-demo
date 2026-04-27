@@ -26,10 +26,11 @@ console.log("================================");
 
 
 // Logical NOT operator
+console.log("Logical NOT operator:");  // false
 console.log(!true);  // false
 console.log(!false); // true
-
+console.log("===============================");
 var isRaining = true;
 var shouldTakeUmbrella = !isRaining;
 console.log("Should take umbrella: " + shouldTakeUmbrella); // false, because it's raining
-
+console.log("===============================");
