@@ -1,3 +1,8 @@
-// Add new line to the end of the file
+// Lesson 9: Class and Methods
 
-// Lesson 9: Functions Second Phrase
+// Define a class called "Person"
+import { customerDetails } from "../helpers/printHelpers.js";
+
+customerDetails.printFirstName("John");   
+customerDetails.printLastName("Doe");
+customerDetails.printAge(30);

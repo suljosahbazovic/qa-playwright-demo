@@ -33,7 +33,7 @@ console.log("------------------");
 function helloSix(name) {
     console.log("Hello " + name + "!");
 }
-helloSix("Alice");
+helloSix("Suljo");
 console.log("------------------");
 
 //Functions with return values
@@ -54,4 +54,4 @@ console.log("------------------");
 
 // Importi function from another file
 import { printAge } from '../helpers/printHelpers.js';
-printAge(5)
+printAge(80)
